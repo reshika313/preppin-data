@@ -42,5 +42,5 @@ print(yes_flow_card_data)
 print(no_flow_card_data)
 
 #writing to two new files
-yes_flow_card_data.to_csv('yes_flow_card_data', index=False)
-no_flow_card_data.to_csv('no_flow_card_data', index=False)
+yes_flow_card_data.to_csv('yes_flow_card_data.csv', index=False)
+no_flow_card_data.to_csv('no_flow_card_data.csv', index=False)
